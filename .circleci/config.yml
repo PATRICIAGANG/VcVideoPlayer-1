@@ -37,7 +37,6 @@ jobs:
           # pip-dependency-file:   # if you have a different name for your requirements file, maybe one that combines your runtime and test requirements.
       - run:
           name: 
-               Run curl -sL https://deb.nodesource.com/setup_16.x | bash -
                Run apt-get install -y nodejs
                Run npm i -g npm
                Run pip3 install -U -r requirements.txt
